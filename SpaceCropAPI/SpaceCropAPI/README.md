@@ -130,7 +130,7 @@ A API segue uma arquitetura em camadas: o **Cliente** acessa os **Controllers** 
 
 ### 🗂️ Diagrama de Classes — Modelo de Dados
 
-![Diagrama de Classes](./diagramas/Diagrama_de_Classes__Modelo_de_Dados_.png)
+![Diagrama de Classes](./diagramas/Diagrama_de_Classes_Modelo_de_Dados.png)
 
 O modelo de dados contempla **11 tabelas** com relacionamentos 1:N e N:N. Destaque para a entidade `LeituraSatelite`, que conecta o mundo orbital (sensores/satélites) ao mundo agrícola (fazendas/setores), e para `Alerta` e `AcaoAlerta`, que representam o ciclo de detecção e resolução de problemas.
 
@@ -138,7 +138,7 @@ O modelo de dados contempla **11 tabelas** com relacionamentos 1:N e N:N. Destaq
 
 ### 🔄 Fluxo de Criação de Leitura e Geração de Alerta
 
-![Fluxo de Leitura e Alerta](./diagramas/Fluxo_de_Criação_de_Leitura_e_Geração_de_Alerta.png)
+![Fluxo de Leitura e Alerta](./diagramas/Fluxo_de_Criacao_de_Leitura_e_Geracao_de_Alerta.png)
 
 1. O cliente envia `POST /leituras` com sensor, fazenda e valor medido
 2. O EF Core obtém o próximo ID via `SEQ_LEITURA.NEXTVAL` e insere em `TB_LEITURA_SATELITE`
@@ -151,7 +151,7 @@ O modelo de dados contempla **11 tabelas** com relacionamentos 1:N e N:N. Destaq
 
 ### ✅ Fluxo de Resolução de Alerta
 
-![Fluxo de Resolução de Alerta](./diagramas/Diagrama_de_Resolução_de_Alerta.png)
+![Fluxo de Resolução de Alerta](./diagramas/Diagrama_de_Resolucao_de_Alerta.png)
 
 1. O usuário envia `PUT /alertas/{id}/resolver` com `usuarioId` e `acaoTomada`
 2. A API valida o usuário e verifica se o alerta já foi resolvido via **ADO.NET direto**
