@@ -122,7 +122,7 @@ SpaceCropAPI/
 
 ### 🏗️ Diagrama de Arquitetura em Camadas
 
-![Diagrama de Arquitetura em Camadas](./diagramas/Diagrama_de_Arquitetura_em_Camadas.png)
+![Diagrama de Arquitetura em Camadas](./Diagramas/Diagrama_de_Arquitetura_em_Camadas.png)
 
 A API segue uma arquitetura em camadas: o **Cliente** acessa os **Controllers** (camada de Apresentação), que se comunicam com a camada de **Aplicação** (AutoMapper, DTOs, SequenceHelper) e com o domínio via **Models**. O acesso ao banco Oracle é feito através do **SpaceCropContext** com EF Core + ADO.NET direto para operações sensíveis.
 
