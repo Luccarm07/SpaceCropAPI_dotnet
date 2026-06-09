@@ -59,7 +59,7 @@ O projeto demonstra uma aplicação backend robusta com:
 
 ---
 
-## 🎯 Objetivo do Challenge
+## 🎯 Objetivo do Global Solution
 
 Desenvolver uma solução utilizando C# e ASP.NET Core capaz de:
 
@@ -618,4 +618,4 @@ O SpaceCrop foi desenvolvido com foco em:
 - **Padrão REST** com verbos HTTP semânticos, recursos aninhados (`/fazendas/{id}/setores`) e códigos de status corretos
 - **Documentação automática** completa via Swagger/OpenAPI
 
-Desenvolvido como parte do **Challenge 2TDSPX — Advanced Business Development with .NET — FIAP 2026**
+Desenvolvido como parte do **Global Solution 2TDSPX — Advanced Business Development with .NET — FIAP 2026**
