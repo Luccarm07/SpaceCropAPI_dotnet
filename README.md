@@ -41,7 +41,7 @@ O projeto demonstra uma aplicação backend robusta com:
 
 - **video pitch**: https://youtu.be/83PvFTVdgT0?si=aVNHT7QoN_-OJYCM
 - **video demonstrativo**:
-- **repositorio github**: 
+- **repositorio github**: https://github.com/Luccarm07/SpaceCropAPI_dotnet.git
 
 
 
