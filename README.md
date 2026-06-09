@@ -504,7 +504,7 @@ Antes de iniciar, certifique-se de ter instalado:
 ### Passo 1 — Clonar o repositório
 
 ```bash
-git clone https://github.com/Luccarm07/SpaceCropAPI.git
+git clone https://github.com/Luccarm07/SpaceCropAPI_dotnet.git
 cd SpaceCropAPI_dotnet-main/SpaceCropAPI
 ```
 
