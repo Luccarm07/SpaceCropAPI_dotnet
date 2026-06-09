@@ -36,7 +36,15 @@ O projeto demonstra uma aplicação backend robusta com:
 - lógica de negócio encapsulada no banco: **1 Compound Trigger, 3 Procedures, 2 Functions e 1 Package**
 
 ---
+## 🔗 Links do Projeto 
 
+- **video pitch**: https://youtu.be/83PvFTVdgT0?si=aVNHT7QoN_-OJYCM
+- **video demonstrativo**:
+- **repositorio github**: 
+
+
+
+---
 ## 👥 Equipe
 
 | Nome | RM |
