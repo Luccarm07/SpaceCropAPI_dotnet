@@ -228,6 +228,7 @@ namespace SpaceCropAPI.Models
         [Required]
         [MaxLength(1)]
         [Column("FL_ANOMALIA")]
+        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public string FlAnomalia { get; set; } = "N";
 
         public ICollection<Alerta> Alertas { get; set; } = new List<Alerta>();
